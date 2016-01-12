@@ -12,3 +12,4 @@ hooks:
    AfterInstall:
     - location: scripts/restarttomcat.sh
       runas: root
+      timeout: 300
