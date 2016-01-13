@@ -7,6 +7,8 @@ hooks:
    BeforeInstall:
     - location: scripts/installtomcat.sh
       runas: root
+    - location: scripts/installjava.sh
+      runas: root
     - location: scripts/starttomcat.sh
       runas: root
    AfterInstall:

@@ -1,9 +1,5 @@
 #!/bin/bash
 #update sistem
-get-apt get update
+apt-get update
 #install tomcat
-get-apt install tomcat7  > /var/log/installtomcat.out 2>&1
-#install admin console
-sudo apt-get install tomcat7-admin
-#install java
-sudo apt-get install default-jdk > /var/log/installjava.out 2>&1
+apt-get install tomcat7  > /var/log/installtomcat.out 2>&1
